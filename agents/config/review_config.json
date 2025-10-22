@@ -1,0 +1,17 @@
+{
+    "aws_region": "us-east-1",
+    "dynamodb": "cluey_poc_TranscribedQuestions",
+    "bedrock": {
+        "model_id":"amazon.nova-pro-v1:0",
+        "guardrail_id":"0c3t6v38zujx",         
+        "guardrail_version":"1",                    
+        "guardrail_trace":"enabled"
+    },
+    "pdf_setting": {
+        "output":"/home/ec2-user/SageMaker/review_pdfs"
+    },
+    "kb": {
+        "id":"XRYDVSYXAS",
+        "model_embed":"arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-70b-instruct-v1:0"
+    }
+}

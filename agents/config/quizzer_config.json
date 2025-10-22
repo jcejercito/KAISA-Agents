@@ -1,0 +1,9 @@
+{
+    "aws_region": "us-east-1",
+    "bedrock": {
+        "model_id":"amazon.nova-pro-v1:0",
+        "guardrail_id":"0c3t6v38zujx",         
+        "guardrail_version":"1",                    
+        "guardrail_trace":"enabled"
+    }
+}
